@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+  <head>
+    <title>xyz paste</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?pls=pls" />
+<style>
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border:1px solid #96ad89;
+    color: aaa;
+    padding:2px;
+    position:absolute;
+    left:calc(9.5% + 1em);
+    font-size:inherit;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 7em;
+    height: auto;
+    bottom: -4rem;
+    left: -.5em;
+    background-color: #2d2d2d;
+    color: #aaaaaa;
+    border:1px solid #96ad89;
+    text-align: left;
+    padding: 2px;
+    font-size: inherit;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+  </head>
+  <body>
+    <center>
+      <div class="wides_top">
+        <div class="wides">
+          <div class="left">
+            <div class="big">
+              paste
+            </div>
+          </div>
+          <div class="right">
+            now with <a href="https://letsencrypt.org/getting-started/">ssl</a>!
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+
+<form action="/paste/paste.php" method="POST" accept-charset="UTF-8">
+  <textarea name="paste" id="paste" maxlength="50000" placeholder="input text here" style="background:#2d2d2d; border:1px solid #96ad89; outline:none; color:#aaaaaa; padding:0 2px 0 2px; width:80%; height:60vh; height:calc(95vh - 13em); font-size:inherit;" autofocus></textarea>
+  <br /><br />
+<!--  <input min="1" step="1" name="expire" id="expire" value="1" type="number" style="background:#2d2d2d; border:1px solid #96ad89; outline:none; color:#aaaaaa; padding:2px; width:3em; position:absolute; right:calc(20% + 5em); font-size:inherit;"> --> 
+<div class="tooltip">
+  usage
+  <span class="tooltiptext">
+30d expiration<br />
+don't be dumb<br />
+<br />
+plaintext: url<br/>
+dark: url+<br/>
+light: url++<br/>
+  </span>
+</div>
+  <select name="ilang" style="background:#2d2d2d; border:1px solid #96ad89; outline: none; color:#aaaaaa; padding:2px;  position:absolute; right:calc(9.5% + 5.5em); font-size:inherit;">
+<option value="text">plaintext</option>
+    <!-- <option value="detect">detect lang</option -->>
+    <option value="bash">bash</option>
+    <option value="c">c</option>
+    <option value="cfg">cfg</option>
+    <option value="clojure">clojure</option>
+    <option value="cmake">cmake</option>
+    <option value="cobol">cobol</option>
+    <option value="common lisp">common lisp</option>
+    <option value="c++">c++</option>
+    <option value="csharp">c#</option>
+    <option value="css">css</option>
+    <option value="diff">diff</option>
+    <option value="django">django</option>
+    <option value="docker">docker</option>
+    <option value="elisp">elisp</option>
+    <option value="fish">fish</option>
+    <option value="fortran">fortran</option>
+    <option value="glsl">glsl</option>
+    <option value="gnuplot">gnuplot</option>
+    <option value="go">go</option>
+    <option value="haskell">haskell</option>
+    <option value="hexdump">hexdump</option>
+    <option value="html">html</option>    
+    <option value="ini">ini</option>
+    <option value="irclog">irc log</option>
+    <option value="java">java</option>
+    <option value="js">javascript</option>
+    <option value="json">json</option>
+    <option value="latex">latex</option>
+    <option value="llvm">llvm</option>
+    <option value="lua">lua</option>
+    <option value="make">make</option>
+    <option value="mathematica">mathematica</option>
+    <option value="matlab">matlab</option>
+    <option value="mysql">mysql</option>
+    <option value="nasm">nasm</option>
+    <option value="nginx">nginx</option>
+    <option value="numpy">numpy</option>
+    <option value="objective-c">objective-c</option>
+    <option value="ocaml">ocaml</option>
+    <option value="octave">octave</option>
+    <option value="pacman">pacman</option>
+    <option value="perl">perl</option>
+    <option value="perl6">perl6</option>
+    <option value="php">php</option>
+    <option value="postgres">postgres</option>
+    <option value="psql">psql</option>
+    <option value="python">python</option>
+    <option value="python3">python3</option>
+    <option value="racket">racket</option>
+    <option value="ruby">ruby</option>
+    <option value="rust">rust</option>
+    <option value="scala">scala</option>
+    <option value="scheme">scheme</option>
+    <option value="sql">sql</option>
+    <option value="sqlite3">sqlite3</option>    
+    <option value="swift">swift</option>
+    <option value="tex">tex</option>
+    <option value="vim">vim</option>
+    <option value="xml">xml</option>
+    <option value="yaml">yaml</option>
+  </select>
+
+  <input type="submit" name="submit" value="paste" style="background:#2d2d2d; border:1px solid #96ad89; color:#aaaaaa; padding:2px; position:absolute; right:calc(9.5% + 1em); font-size:inherit;">
+
+</form>
+<div style="width: 80%; word-wrap: break-word;">
+
+</div>
+      <div class="wides_bottom">
+        <div class="wides">
+          <div class="left">
+            be nice
+          </div>
+          <div class="right">
+            #xyz
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
