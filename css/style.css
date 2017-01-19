@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#2d2d2d;
+    color:#aaaaaa;
+    font-size: 1.15em;
+    font-family: "Droid Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+} 
+::-webkit-scrollbar-thumb {
+    background-color: #96ad89;
+}
+::-webkit-scrollbar-corner {
+    color:00000;
+}
+
+textarea {
+    resize: none;
+}
+input textarea {
+   resize: none;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 15/10),
+only screen and (min-resolution: 150dpi)
+{
+    body {
+        font-size: 36px;
+    }
+}
+
+
+
+fw {
+    font-family: "Droid Sans Mono", monospace;
+}
+.wides
+{
+#    position:fixed;
+$    bottom:0;
+    height:0%;
+    width:100%;
+#    border: 1px solid #96ad89;
+}
+
+.wides_bottom
+{
+    position:fixed;
+    width:96%;
+    bottom:2%;
+    right: 2%;
+#    background-color:#000000;
+#    color:#aaaaaa;
+}
+
+.wides_top
+{
+    position:fixed;
+    width:96%;
+    top:2%;
+    right: 2%;
+#    background-color:#000000;
+#    color:#aaaaaa;
+}
+
+.left
+{
+    float:left;
+    COLOR: #96ad89;
+}
+.right
+{
+    float:right;
+    COLOR: #96ad89;
+}
+.big
+{
+    font-size: 250%;
+}
+
+g {
+    COLOR: #96ad89;
+}
+
+a:link {
+COLOR: #96ad89;
+}
+a:visited {
+COLOR: #96ad89;
+}
+a:hover {
+COLOR: #96ad89;
+}
+a:active {
+COLOR: #96ad89;

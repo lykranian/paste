@@ -24,4 +24,4 @@ see `/paste/paste.php` for changing the `$save_path` and `$paste_url` for changi
 change `/p/index.html` to point to your paste page.
 
 #### todo
-remove inline css on `/paste/index.html`
+clean all css up
