@@ -56,7 +56,7 @@ text-decoration:none;
 COLOR: #ccc;
 }
 
-.linenodiv { color: #aaaaaa; padding: 0 .5em 0 .5em;}
+.linenodiv { color: #aaaaaa; padding: 0 .5em 0 .9em;}
 .hll { background-color: #ffffcc;}
 .c { color: #888888; font-style: italic } /* Comment */
 .err { background-color: #ccc } /* Error */
