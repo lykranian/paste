@@ -2,6 +2,9 @@
 
 a simple pastebin hosting page
 
+#### requires
+`python-pygments` package
+
 #### usage
 copy `/css/`, `/p/`, and `/paste/` to your webroot.
 
