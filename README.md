@@ -13,7 +13,7 @@ pastes are saved in `/p/id.txt`, `/p/id+.html`, and `/p/id++.html` where `id` is
 #### config
 in addition to enabling php on `/paste/paste.php`, a good nginx conf would have
 
-```
+```nginx
 location /paste/ {
     try_files $uri $uri/ $uri.txt /p;
 }
